@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  margin: 0;
+  color: #222;
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(71, 43, 186);
+  background: linear-gradient(0deg, rgba(71, 43, 186, 1) 0%, rgba(44, 25, 121, 1) 100%);
+}
+
+.content {
+  background: white;
+  width: 380px;
+  height: 480px;
+  border-radius: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 16px #222;
+}
+
+.content-bottom {
+  margin: 10px 0;
+}
+
+h1 {
+  font-family: 'Arvo', serif;
+  font-size: 26px;
+  margin: 32px auto 24px;
+  line-height: 40px;
+}
+
+.img-github {
+  margin-top: 32px;
+  width: 160px;
+  height: 160px;
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  width: 220px;
+  line-height: 38px;
+  padding-top: 2px;
+  border-radius: 20px;
+  color: white;
+  background: rgba(71, 43, 186, 1);
+  margin: 0 auto;
+  border: none;
+  font-size: 14px;
+}
+
+input[type='text'] {
+  width: 180px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
+
+.sign-in-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+.party-popper {
+  display: inline-block;
+  font-size: 52px;
+  margin-bottom: 24px;
+}
